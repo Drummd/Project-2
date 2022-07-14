@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Snippet Cheatsheet</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<header>CSS Toolbox</header>
+<nav class="nb">
+    <a href="#rc"> Rounded Corners</a>
+    <a href="#pe"> Psuedo Elements</a>
+    <a href="#mb"> Multiple Backgrounds</a>
+    <a href="#ct"> CSS Tooltip</a>
+</nav>
+<main>
+
+    <body>
+        <pre> 
+        <H1 id="rc">Rounded Corners</H1>
+        <content>This property allows you to add rounded corners to elements!</content>
+        <section id="code-display">
+            <p>div {</p>
+            <p>  border: 2px solid red;</p>
+            <p>  border-radius: 5px;</p>
+            <p>  }</p>
+        </section>
+    
+        <h2 id="pe">Psuedo Element</h2>
+        <content>Psuedo elements provide a special state to the element selected.</content>
+        <section id="code-display">
+            <p> selector:pseudo-class{ </p>
+            <p>  property: value;</p>
+            <p>  } </p>
+        </section>
+        <h3 id="mb">Multiple Backgrounds</h3>
+        <content>The different background images are separated by commas, and the images are stacked on top of each other, where the first image is closest to the viewer.</content>
+        <section id="code-display">
+            <p>#example1 {</p>
+            <p>   background-image:</p>
+            <p>   url(img_flwr.gif),</p> 
+            <p>   url(paper.gif);</p>
+            <p>   background-position:</p>  
+            <p>   right bottom, left top;</p> 
+            <p>   background-repeat:</p>
+            <p>   no-repeat, repeat;
+          }</p>
+        </section>
+        <h4 id="ct">CSS Tooltip</h4>
+        <content>A tooltip is used to specify more information when the mouse is pointed over the element.</content>
+        <section id="code-display">
+            <p>.tooltip .tooltiptext { </p>
+            <p>   visibility: hidden;</p>
+            <p>    width: 120px;</p>
+            <p>    background-color: black;</p>
+            <p>    color: #fff;</p>
+            <p>    text-align: center;</p>
+            <p>    padding: 5px 0;</p> 
+            <p>    border-radius: 6px;</p>
+            <p>  }</p>
+        </section>
+        </pre>  
+    </body>
+    <footer>
+       <p>Cyber Street Smarts</p>
+    </footer>
+</main>
+</html>

@@ -1,0 +1,109 @@
+:root {
+    --primary: rgb(16, 16, 16);
+    --secondary: #5f9aad;
+    --teritary: #857d7d;
+}
+.nb {
+    background-color: var(--secondary);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.nb a{
+  float: left;
+  color: var(--primary);
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.nb a:hover {
+   background-color: var(--teritary);
+   color: var(--primary);
+}
+.nb a.active {
+  background-color: var(--teritary);
+  color: var(--teritary)
+}
+main {
+    width: 96%;
+    margin: 5rem auto;
+    background: linear-gradient(30deg, #5f9aad, #857d7d );
+}
+    
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: var(--secondary);
+    flex-wrap: wrap;
+    border: 15px solid var(--primary);
+}
+
+header {
+    text-align: center;
+    font-size: 50px;
+    border: 10px solid var(--teritary);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: var(--secondary);
+    background-blend-mode: soft-light;
+    
+}
+h1, h2, h3, h4 {
+    font-size: 23px;
+    border-radius: 10px;
+    border: 10px solid var(--primary);
+    padding: 10px;
+    margin: 3rem auto;
+    width: 300px;
+    background-color: var(--secondary);
+    text-align: center;
+    object-position: center;
+    position: relative;
+    bottom: -30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+content {
+    border-bottom: 3px solid var(--primary);
+    border-radius: 5px 5px 5px 5px;
+    bottom: -20%;
+    display: flex;
+    justify-content: center;
+}    
+p {
+    border: 1px dashed var(--primary);
+    font-size: larger;
+    user-select: text;
+}
+section {
+    font-size: 15px;
+    font-display: bold var(--primary);
+    width: 300px;
+    border: 15px solid var(--primary);
+    padding: 50px;
+    margin: 5rem auto;
+}   
+footer{
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    font-size: 45px;
+    border-bottom: solid var(--primary)
+    
+}
+@media screen and (max-width: 768px){
+    h1,h2,h3,h4 {
+      width: 300px; 
+    }
+  }
+  @media screen and (max-width: 992px){
+    h1,h2,h3,h4 {
+      background-color: var(--teritary);
+  }}
+  @media screen and (max-width: 768px){
+    section {
+        width: 300px; 
+    }}
+
+   
+
